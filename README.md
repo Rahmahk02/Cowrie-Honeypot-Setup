@@ -4,11 +4,11 @@ This repository explains how to set up the Cowrie honeypot. Cowrie logs brute-fo
 
 ## Setup Instructions
 
-The instructions for deploying a Honeypot. Follow the steps below!
+Here are the following instructions for deploying a Honeypot. Before you start, please create a Linode (High-Performance Linux Server) through a website like Akamai. Follow along with the steps below!
 
 ## 1. Changing the Default SSH Port
 
-To ensure security, change the default SSH port. For example, it should look similar to this:
+To ensure security, change the default SSH port (mentioned earlier, I used the SSH port from Akamai). For example, it should look similar to this:
 
 ```bash
 ssh user@1.111.111.1 -p 55555
@@ -82,3 +82,12 @@ Finally, to view the honeypot logs, use:
 ```bash
 tail -f ./var/log/cowrie/cowrie.log
 ```
+## Analyzing Honeypot Traffic Logs via Akamai
+The following charts represent traffic data collected from the honeypot, enabling the detection and tracking of malicious activities.
+
+![image](https://github.com/user-attachments/assets/d2f61396-f6cf-408f-9c7d-2996fbfa2bb4)
+
+## Further Research 
+It was possible to determine the attacker's country using the IP address that interacted with the honeypot. This information can be found through sites like AbuseIPDB. 
+
+![1](https://github.com/user-attachments/assets/f651af67-7f4b-444e-98f4-46bea31925df)
