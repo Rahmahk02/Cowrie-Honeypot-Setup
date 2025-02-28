@@ -90,5 +90,4 @@ The following charts represent traffic data collected from the honeypot, enablin
 ## Further Research 
 It was possible to determine the attacker's country using the IP address that interacted with the honeypot. This information can be found through sites like AbuseIPDB. 
 
-![1](https://github.com/user-attachments/assets/f651af67-7f4b-444e-98f4-46bea31925df)
 ![f651af67-7f4b-444e-98f4-46bea31925df (1)](https://github.com/user-attachments/assets/becda227-55e5-4076-a7a7-e490159af2fd)
